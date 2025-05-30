@@ -7,6 +7,16 @@ Tipos según ubicación de datos:
 
 Burbuja(bubble sort):
    *Compara elementos adyacentes y los intercambia si están en el orden incorrecto. Repite hasta que todo esté ordenado.
+   for( int i=0;i<n;i++){
+		for(int j=0;j<n;j++){
+			if(arr[j]>arr[j+1]){
+				temp=arr[j];
+				arr[j]=arr[j+1];
+				arr[j+1]=temp;
+			}
+		}
+		
+	}
 Seleccion(selection sort):
    *Encuentra el mínimo en cada pasada y lo pone en su posición correcta.
 Insercion(insercino sort):
