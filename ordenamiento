@@ -1,0 +1,16 @@
+Ordenamiento:
+Es organizar un arreglo según un criterio (por ejemplo, de menor a mayor).
+
+Tipos según ubicación de datos:
+   *Interno:Los datos están en memoria principal. Acceso rápido a cualquier elemento.
+   *externos:están en memoria secundaria.Acceso lento, depende de la última posición accesada 
+
+Burbuja(bubble sort):
+   *Compara elementos adyacentes y los intercambia si están en el orden incorrecto. Repite hasta que todo esté ordenado.
+Seleccion(selection sort):
+   *Encuentra el mínimo en cada pasada y lo pone en su posición correcta.
+Insercion(insercino sort):
+   *Inserta cada elemento en su lugar correcto como si estuvieras ordenando cartas en la mano.
+
+
+
