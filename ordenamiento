@@ -21,6 +21,15 @@ Seleccion(selection sort):
    *Encuentra el mínimo en cada pasada y lo pone en su posición correcta.
 Insercion(insercino sort):
    *Inserta cada elemento en su lugar correcto como si estuvieras ordenando cartas en la mano.
+for(int i=0;i<10;i++){
+		temp=arr[i];
+		j=i-1;
+		while(j>=0 && arr[j]>temp){
+			arr[j+1]=arr[j];
+			j--;
+		}
+		arr[j+1]=temp;
+	}
 
 
 
