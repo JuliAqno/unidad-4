@@ -1,0 +1,31 @@
+Función:
+  Es un subprograma que realiza una tarea específica. Se le pasan datos y devuelve un resultado. Se ejecuta cuando se la llama.
+  El programa es más fácil de entender y mantener. Cada parte hace una tarea específica. Se pueden usar varias veces sin reescribirlas.
+
+Return:
+  *Sirve para devolver un valor. El tipo del valor debe coincidir con el tipo de la función. También finaliza la ejecución de la función.
+
+Llamada a función:
+  *Cuando se llama, la función ejecuta su código y devuelve un valor con return. Si no devuelve nada, puede ser void.
+
+Tipos de funciones:
+  *Predefinidas: vienen con el lenguaje (como printf o scanf).
+  *Definidas por el usuario: las crea el programador para tareas personalizadas.
+
+Procedimientos en C:
+  *En C se usan funciones void como procedimientos. No devuelven valor y solo realizan acciones, como imprimir en pantalla.
+
+Variables:
+  *Locales: existen solo dentro de la función donde se definen.
+  *Globales: se definen fuera de cualquier función y se pueden usar en todo el programa.
+
+Pasaje por parámetro:
+  *Por valor: se pasa una copia del dato, no afecta al original.
+  *Por referencia: se pasa la dirección de memoria, puede modificar el dato original. Se usan punteros.
+
+Modularidad:
+  *Permite dividir un problema grande en partes más pequeñas llamadas módulos. Cada módulo se puede diseñar, probar y modificar por separado.
+Cohesión:
+  *Cada módulo debe hacer una sola cosa. Cuanto más claro y específico sea, mejor. Si hace varias tareas, es mejor dividirlo.
+Acoplamiento:
+  *Es el grado en que un módulo depende de otros. Lo mejor es que tengan poca conexión para que sean más fáciles de modificar y mantener.
