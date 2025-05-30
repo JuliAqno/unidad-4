@@ -1,0 +1,16 @@
+Cadenas o Strings:
+   *Son secuencias de caracteres (char) terminadas con un carácter nulo ('\0', que es el valor 0).
+Declaración:
+   *Para guardar una cadena, se usa un arreglo de caracteres. Siempre se debe dejar un espacio extra para el '\0'.
+  
+Funciones en String--->libreria <string.h>
+   *strlen(cadena):devuelve la longitud de la cadena (sin contar '\0').
+   *strcpy(destino, origen):copia una cadena en otra.
+   *strcat(destino, origen):agrega (concatena) una cadena al final de otra.
+   *strcmp(cad1, cad2):compara dos cadenas,devuelve 0 si son iguales, negativo si la primera es menor, positivo si es mayor.
+   *strchr(cadena,caracter):busca la primera aparicion de un caracter en la cadena.
+   *strstr(cadena,subcadena):busca la primera aparicion de un caracter en la cadena.
+
+  
+
+
